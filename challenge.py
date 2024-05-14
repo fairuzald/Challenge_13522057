@@ -66,7 +66,7 @@ matrices = [matrix1, matrix2, matrix3]
 
 for idx, matrix in enumerate(matrices):
     print("=====================================")
-    print("================Matrix:"+ idx + 1+"================")
+    print("=============Matrix:", idx + 1,"==============")
     print("=====================================")
     best_tour, min_weight = tsp(matrix)
     print("Best tour:", end=" ")
